@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Maven_Selenium" duration-ms="24659" started-at="2018-09-10T12:00:58Z" finished-at="2018-09-10T12:01:22Z">
+  <suite name="Maven_Selenium" duration-ms="23891" started-at="2018-09-10T16:51:49Z" finished-at="2018-09-10T16:52:13Z">
     <groups>
     </groups>
-    <test name="Maven_Selenium_Test" duration-ms="24659" started-at="2018-09-10T12:00:58Z" finished-at="2018-09-10T12:01:22Z">
+    <test name="Maven_Selenium_Test" duration-ms="23891" started-at="2018-09-10T16:51:49Z" finished-at="2018-09-10T16:52:13Z">
       <class name="Testing.Scenario">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:Testing.Scenario@5d624da6]" name="openApp" duration-ms="9557" started-at="2018-09-10T17:30:58Z" finished-at="2018-09-10T17:31:07Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:Testing.Scenario@5d624da6]" name="openApp" duration-ms="9727" started-at="2018-09-10T22:21:49Z" finished-at="2018-09-10T22:21:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Testing.Scenario@5d624da6]" name="Login" duration-ms="8254" started-at="2018-09-10T17:31:07Z" depends-on-methods="Testing.Scenario.openApp" finished-at="2018-09-10T17:31:16Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Testing.Scenario@5d624da6]" name="Login" duration-ms="7580" started-at="2018-09-10T22:21:59Z" depends-on-methods="Testing.Scenario.openApp" finished-at="2018-09-10T22:22:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Logout()[pri:0, instance:Testing.Scenario@5d624da6]" name="Logout" duration-ms="6828" started-at="2018-09-10T17:31:16Z" depends-on-methods="Testing.Scenario.Login" finished-at="2018-09-10T17:31:22Z">
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Testing.Scenario@5d624da6]" name="Logout" duration-ms="6560" started-at="2018-09-10T22:22:07Z" depends-on-methods="Testing.Scenario.Login" finished-at="2018-09-10T22:22:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
