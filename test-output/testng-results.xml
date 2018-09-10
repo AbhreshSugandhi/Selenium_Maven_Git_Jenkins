@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Maven_Selenium" duration-ms="316" started-at="2018-08-15T08:52:23Z" finished-at="2018-08-15T08:52:23Z">
+    <groups>
+      <group name="Services">
+        <method signature="Scenario2.TC5()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC5" class="Testing.Scenario2"/>
+        <method signature="Scenario2.TC8()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC8" class="Testing.Scenario2"/>
+      </group> <!-- Services -->
+      <group name="HomePage">
+        <method signature="Scenario2.TC1()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC1" class="Testing.Scenario2"/>
+        <method signature="Scenario2.TC4()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC4" class="Testing.Scenario2"/>
+        <method signature="Scenario2.TC7()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC7" class="Testing.Scenario2"/>
+        <method signature="Scenario2.TC9()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC9" class="Testing.Scenario2"/>
+      </group> <!-- HomePage -->
+      <group name="ContactUs">
+        <method signature="Scenario2.TC2()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC2" class="Testing.Scenario2"/>
+        <method signature="Scenario2.TC3()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC3" class="Testing.Scenario2"/>
+        <method signature="Scenario2.TC6()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC6" class="Testing.Scenario2"/>
+      </group> <!-- ContactUs -->
+    </groups>
+    <test name="Maven_Selenium_Test" duration-ms="316" started-at="2018-08-15T08:52:23Z" finished-at="2018-08-15T08:52:23Z">
+      <class name="Testing.Scenario2">
+        <test-method status="PASS" signature="TC1()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC1" duration-ms="56" started-at="2018-08-15T14:22:23Z" finished-at="2018-08-15T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC2()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC2" duration-ms="12" started-at="2018-08-15T14:22:23Z" finished-at="2018-08-15T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="TC3()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC3" duration-ms="4" started-at="2018-08-15T14:22:23Z" finished-at="2018-08-15T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="TC4()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC4" duration-ms="12" started-at="2018-08-15T14:22:23Z" finished-at="2018-08-15T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+        <test-method status="PASS" signature="TC5()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC5" duration-ms="8" started-at="2018-08-15T14:22:23Z" finished-at="2018-08-15T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+        <test-method status="PASS" signature="TC6()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC6" duration-ms="8" started-at="2018-08-15T14:22:23Z" finished-at="2018-08-15T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+        <test-method status="PASS" signature="TC7()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC7" duration-ms="4" started-at="2018-08-15T14:22:23Z" finished-at="2018-08-15T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7 -->
+        <test-method status="PASS" signature="TC8()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC8" duration-ms="8" started-at="2018-08-15T14:22:23Z" finished-at="2018-08-15T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8 -->
+        <test-method status="PASS" signature="TC9()[pri:0, instance:Testing.Scenario2@1b604f19]" name="TC9" duration-ms="4" started-at="2018-08-15T14:22:23Z" finished-at="2018-08-15T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9 -->
+      </class> <!-- Testing.Scenario2 -->
+    </test> <!-- Maven_Selenium_Test -->
+  </suite> <!-- Maven_Selenium -->
+</testng-results>
