@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Maven_Selenium">
-              <span class="suite-name border-passed">Maven_Selenium</span>
+              <span class="suite-name border-failed">Maven_Selenium</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Maven_Selenium">
-                    <span>D:\Training\Programs\Maven_23rdJuly\testng.xml</span>
+                    <span>D:\Training\Programs\Maven_Selenium\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -58,7 +58,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-Maven_Selenium">
-                    <span>3 groups</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,61 +90,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Maven_Selenium" class="hide-methods passed suite-Maven_Selenium"> (hide)</a> <!-- hide-methods passed suite-Maven_Selenium -->
-                      <a href="#" panel-name="suite-Maven_Selenium" class="show-methods passed suite-Maven_Selenium"> (show)</a> <!-- show-methods passed suite-Maven_Selenium -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Maven_Selenium" class="hide-methods failed suite-Maven_Selenium"> (hide)</a> <!-- hide-methods failed suite-Maven_Selenium -->
+                      <a href="#" panel-name="suite-Maven_Selenium" class="show-methods failed suite-Maven_Selenium"> (show)</a> <!-- show-methods failed suite-Maven_Selenium -->
                     </span>
-                    <div class="method-list-content passed suite-Maven_Selenium">
+                    <div class="method-list-content failed suite-Maven_Selenium">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario2" hash-for-method="TC1">TC1</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario" hash-for-method="openApp">openApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Maven_Selenium -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Maven_Selenium" class="hide-methods skipped suite-Maven_Selenium"> (hide)</a> <!-- hide-methods skipped suite-Maven_Selenium -->
+                      <a href="#" panel-name="suite-Maven_Selenium" class="show-methods skipped suite-Maven_Selenium"> (show)</a> <!-- show-methods skipped suite-Maven_Selenium -->
+                    </span>
+                    <div class="method-list-content skipped suite-Maven_Selenium">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario" hash-for-method="Login">Login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario2" hash-for-method="TC2">TC2</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario" hash-for-method="Logout">Logout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario2" hash-for-method="TC3">TC3</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario2" hash-for-method="TC4">TC4</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario2" hash-for-method="TC5">TC5</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario2" hash-for-method="TC6">TC6</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario2" hash-for-method="TC7">TC7</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario2" hash-for-method="TC8">TC8</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Maven_Selenium" title="Testing.Scenario2" hash-for-method="TC9">TC9</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Maven_Selenium -->
+                    </div> <!-- method-list-content skipped suite-Maven_Selenium -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -156,81 +135,109 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Maven_Selenium" class="panel Maven_Selenium">
-          <div class="suite-Maven_Selenium-class-passed">
+          <div class="suite-Maven_Selenium-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Testing.Scenario2</span>
+              <img src="failed.png"/>
+              <span class="class-name">Testing.Scenario</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC1">
-                  </a> <!-- TC1 -->
-                  <span class="method-name">TC1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC2">
-                  </a> <!-- TC2 -->
-                  <span class="method-name">TC2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC3">
-                  </a> <!-- TC3 -->
-                  <span class="method-name">TC3</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC4">
-                  </a> <!-- TC4 -->
-                  <span class="method-name">TC4</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC5">
-                  </a> <!-- TC5 -->
-                  <span class="method-name">TC5</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC6">
-                  </a> <!-- TC6 -->
-                  <span class="method-name">TC6</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC7">
-                  </a> <!-- TC7 -->
-                  <span class="method-name">TC7</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC8">
-                  </a> <!-- TC8 -->
-                  <span class="method-name">TC8</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC9">
-                  </a> <!-- TC9 -->
-                  <span class="method-name">TC9</span>
+                  <a name="openApp">
+                  </a> <!-- openApp -->
+                  <span class="method-name">openApp</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.42 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ABHRESH&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\abhre\AppData\Local\Temp\scoped_dir11112_11361}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 623415dc58f7d446c4a43a030f8eeb40
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)
+	at Testing.Scenario.openApp(Scenario.java:20)
+... Removed 28 stack frames<br/> org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.42 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ABHRESH&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\abhre\AppData\Local\Temp\scoped_dir11112_11361}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 623415dc58f7d446c4a43a030f8eeb40
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)
+	at Testing.Scenario.openApp(Scenario.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)<br>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)<br>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)<br>Testing.Scenario.openApp(Scenario.java:20)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Maven_Selenium-class-passed -->
+          </div> <!-- suite-Maven_Selenium-class-failed -->
+          <div class="suite-Maven_Selenium-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Testing.Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout">
+                  </a> <!-- Logout -->
+                  <span class="method-name">Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Maven_Selenium-class-skipped -->
         </div> <!-- panel Maven_Selenium -->
         <div panel-name="test-xml-Maven_Selenium" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Training\Programs\Maven_23rdJuly\testng.xml</span>
+            <span class="header-content">D:\Training\Programs\Maven_Selenium\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -239,7 +246,7 @@
 &lt;suite name=&quot;Maven_Selenium&quot;&gt;
   &lt;test name=&quot;Maven_Selenium_Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Testing.Scenario2&quot;/&gt;
+      &lt;class name=&quot;Testing.Scenario&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Maven_Selenium_Test --&gt;
 &lt;/suite&gt; &lt;!-- Maven_Selenium --&gt;
@@ -263,54 +270,6 @@
             <span class="header-content">Groups for Maven_Selenium</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">ContactUs</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC2</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC3</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC6</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">HomePage</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC1</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC4</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC7</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC9</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">Services</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC5</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC8</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Maven_Selenium" class="panel">
@@ -327,48 +286,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC1')
-data.setCell(0, 2, 'Testing.Scenario2')
-data.setCell(0, 3, 56);
+data.setCell(0, 1, 'openApp')
+data.setCell(0, 2, 'Testing.Scenario')
+data.setCell(0, 3, 6082);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC4')
-data.setCell(1, 2, 'Testing.Scenario2')
-data.setCell(1, 3, 12);
+data.setCell(1, 1, 'Login')
+data.setCell(1, 2, 'Testing.Scenario')
+data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC2')
-data.setCell(2, 2, 'Testing.Scenario2')
-data.setCell(2, 3, 12);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC6')
-data.setCell(3, 2, 'Testing.Scenario2')
-data.setCell(3, 3, 8);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC8')
-data.setCell(4, 2, 'Testing.Scenario2')
-data.setCell(4, 3, 8);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC5')
-data.setCell(5, 2, 'Testing.Scenario2')
-data.setCell(5, 3, 8);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC9')
-data.setCell(6, 2, 'Testing.Scenario2')
-data.setCell(6, 3, 4);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC3')
-data.setCell(7, 2, 'Testing.Scenario2')
-data.setCell(7, 3, 4);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'TC7')
-data.setCell(8, 2, 'Testing.Scenario2')
-data.setCell(8, 3, 4);
+data.setCell(2, 1, 'Logout')
+data.setCell(2, 2, 'Testing.Scenario')
+data.setCell(2, 3, 0);
 window.suiteTableData['Maven_Selenium']= { tableData: data, tableDiv: 'times-div-Maven_Selenium'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 116 ms</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Maven_Selenium">
               </div> <!-- times-div-Maven_Selenium -->
             </div> <!-- times-div -->
@@ -394,42 +329,12 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Testing.Scenario2</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Testing.Scenario</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">TC1</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openApp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC2</span>
-                <span class="method-start">68 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC3</span>
-                <span class="method-start">84 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC4</span>
-                <span class="method-start">100 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC5</span>
-                <span class="method-start">116 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC6</span>
-                <span class="method-start">140 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC7</span>
-                <span class="method-start">152 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC8</span>
-                <span class="method-start">156 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC9</span>
-                <span class="method-start">168 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
